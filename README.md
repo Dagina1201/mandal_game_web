@@ -1,3 +1,12 @@
+<!--
+npm run dev cmd аар асна
+http://localhost:3000 дэр асна
+нэвтэрч ороход заавал бүртгэл үүсгэх шаардлагагүй учраас шууд submit хийнэ
+Дараагийн page дэр шинэээр тоглоом үүсгэж байгаа бөгөөд form-г бөглөн тоглоомыг эхлүүлнэ.
+Дахин тоглох бол http://localhost:3000/game link руу буцна.
+Нэг ip наас олон хэрэглэгч орох боломжгүй 
+ -->
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

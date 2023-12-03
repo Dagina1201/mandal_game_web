@@ -10,8 +10,8 @@ type CardType = {
 }
 const Card: FC<CardType> = ({ bg, current, setCurrent, child }) => {
     return (
-        <VStack zIndex={2} w={'full'} h={'full'} borderTopLeftRadius={60} pt={8} bgImage={statistic} pos={'relative'}>
-
+        <VStack zIndex={2} w={'full'} h={'full'} borderTopLeftRadius={60} pt={8} bgImage={statistic} bgSize={'cover'} bgRepeat={'no-repeat'} pos={'relative'} overflow={'hidden'}>
+            <Box pos={'absolute'} bg={'black'} inset={0} opacity={0.1} zIndex={2} />
 
             {child}
             <HStack alignItems={'end'} zIndex={2} bg={'white'} w={'full'} gap={4} justifyContent={'space-between'} pos={'absolute'} bottom={0} px={4} py={4}>

@@ -251,7 +251,8 @@ export const AnswerModal: FC<DetaulModalType> = ({ onClick, }) => {
                 toast({
                     duration: 3000,
                     status: 'success',
-                    title: 'Баяр хүргэе'
+                    title: 'Баяр хүргэе та 500К цалин авлаа',
+
                 })
                 await fetch(`${api}game/answer/${params.get('id')}`, {
                     headers: {
